@@ -112,28 +112,28 @@ h4 {
     padding: 10px;
 }
 
-  input[type=text], select, textarea {
+input[type=text], select, textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #777777;
     border-radius: 4px;
     resize: vertical;
-  }
+}
 
-  .container {
+.container {
     width: 920px;
     height: 575px;
     border-radius: 5px;
     background-color: #ffffff;
     margin: 10px;
-  }
+}
 
-  h5 {
+h5 {
     padding: 10px 10px 10px 0;
     display: inline-block;
-  }
-  
-  input[type=submit] {
+} 
+
+input[type=submit] {
     background-color: #e575d1;
     color: white;
     margin: 10px 0px 10px 0px;
@@ -143,8 +143,8 @@ h4 {
     cursor: pointer;
     float: left;
     font-size: 18px;
-  }
-  
+}
+
 input[type=submit]:hover {
     background-color: #bca2aa;
 }
@@ -159,4 +159,13 @@ footer {
     text-align: center;
     color: #ffffff;
     display: fixed;
+}
+
+@media (min-width: 768px) {
+    body {
+        margin: 0px;
+        padding: 0px;
+        width: 1080px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #777777;
 }
